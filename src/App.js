@@ -1,12 +1,11 @@
 // ffbc931f56624ee081eda3133997d675
-import { Component } from 'react';
+
 import { useState } from 'react';
 import './App.css';
 import Navbar from './component/navbar/navbar';
 import { News } from './component/news/news';
-import ReactDOM from "react-dom/client";
+
 import {
-  BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";

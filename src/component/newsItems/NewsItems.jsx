@@ -1,5 +1,5 @@
 import React from "react";
-import { Component } from 'react'
+
 import '../news/news.css'
 
 export const  NewsItem = (props)=> {

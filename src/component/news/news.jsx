@@ -1,5 +1,5 @@
 import React ,{useState , useEffect} from "react";
-import { Component } from 'react'
+
 import { NewsItem } from "../newsItems/NewsItems";
 import { Spinner } from "../spinner/spinner";
 import './news.css'
@@ -7,10 +7,10 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 export const  News = (props)=> {
 
 const [articles,setArticles] = useState([]);
-const [loading,setloading] = useState(false);
+
 const [page,setPage] = useState(1);
 const [totalResults,setTotalResults] = useState(0);
-const [disable,setDisable] = useState(false);
+
 
   const update = async ()=>{
         let url = `https://newsapi.org/v2/top-headlines?country=in&category=${props.category}&apiKey=ffbc931f56624ee081eda3133997d675&page=${page}&pageSize=12`
