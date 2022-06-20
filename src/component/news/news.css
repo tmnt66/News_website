@@ -1,0 +1,9 @@
+.news_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.news__item{
+    margin: 5px 0px;
+}
