@@ -13,7 +13,7 @@ export const  NewsItem = (props)=> {
                         <div className="card-body">
                             <h5 className="card-title">{title}</h5>
                             <p className="card-text">{description}.</p>
-                            <a target="_blank" href={url} className="btn btn-primary">Go somewhere</a>
+                            <a target="_blank" rel="noreferrer" href={url} className="btn btn-primary">Go somewhere</a>
                         </div>
                 </div>
             </div>

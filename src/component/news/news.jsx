@@ -20,9 +20,9 @@ const [totalResults,setTotalResults] = useState(0);
         setArticles(parseData.articles);
         setTotalResults(parseData.totalResults);
   }
-    useEffect(  ()=>{ 
-     update();
-    },[])
+useEffect(()=>(
+     update()
+),[])
     
 
    const  fetchData = async () => {

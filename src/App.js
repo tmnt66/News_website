@@ -21,7 +21,7 @@ const navItems = {
 }
 
 export const  App = ()=> {
-const [categories,setCategories] = useState(navItems)
+const [categories] = useState(navItems)
 
 console.log(categories)
 
